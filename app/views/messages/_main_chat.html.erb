@@ -6,7 +6,7 @@
   </div>
   <div class="right-header">
     <div class="header-btn">
-      <%= link_to "チャットを終了する", "#", class: "header-finish-btn" %>
+      <%= link_to "チャットを終了する", room_path(@room), method: :delete, class: "header-finish-btn" %>
     </div>
   </div>
 </div>
